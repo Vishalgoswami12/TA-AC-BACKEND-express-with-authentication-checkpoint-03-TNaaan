@@ -74,14 +74,14 @@ router.get("/verify", async (req, res) => {
         service: "gmail",
         host: "smtp.gmail.com",
         auth: {
-          user: "rahulmandyal079@gmail.com",
-          pass: "Vishal@$079",
+          user: "vishalgoswami2250@gmail.com",
+          pass: "honey123456",
         },
       })
     );
 
     var mailOptions = {
-      from: "rahulmandyal079@gmail.com",
+      from: "vishalgoswami2250@gmail.com",
       to: "flixpahadi@gmail.com",
       subject: "Sending Email using Node.js[nodemailer]",
       html: `<h1> Hey copy  the code and verify to use our services<h1>
